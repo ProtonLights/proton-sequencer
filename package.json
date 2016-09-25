@@ -1,0 +1,22 @@
+{
+  "name": "proton-sequencer",
+  "version": "0.0.1",
+  "description": "Sequencer (and Visualizer) for the CSE Winter Light Show",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teslaworksumn/proton-sequencer.git"
+  },
+  "author": "Tesla Works",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teslaworksumn/proton-sequencer/issues"
+  },
+  "homepage": "https://github.com/teslaworksumn/proton-sequencer#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
