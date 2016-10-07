@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/teslaworksumn/proton-sequencer.git"
   },
-  "author": "Ryan Fredlund, Byron Ambright, ",
+  "author": "Ryan Fredlund, Byron Ambright, Joshua Guldberg, ",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/teslaworksumn/proton-sequencer/issues"
