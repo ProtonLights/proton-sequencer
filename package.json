@@ -1,12 +1,8 @@
 {
-  "name": "proton-sequencer",
+  "name": "proton-sequencer-dev-side",
   "version": "0.0.1",
-  "description": "Sequencer (and Visualizer) for the CSE Winter Light Show",
+  "description": "Sequencer (and Visualizer) for the CSE Winter Light Show. This is the developement side, client side is within /app/",
   "main": "main.js",
-  "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/teslaworksumn/proton-sequencer.git"
@@ -17,8 +13,8 @@
     "url": "https://github.com/teslaworksumn/proton-sequencer/issues"
   },
   "homepage": "https://github.com/teslaworksumn/proton-sequencer#readme",
-  "devDependencies": {},
-  "dependencies": {
-    "electron": "^1.4.1"
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "electron-prebuilt": "^0.31.0"
   }
 }
