@@ -1,0 +1,11 @@
+{
+  "name": "proton-sequencer-dev-side",
+  "version": "0.0.1",
+  "description": "This is an implementation of bower for use with the proton-sequencer electron application.",
+  "main": "app.js",
+  "dependencies": {
+    "angular": "~1.4.4",
+    "angular-route": "~1.4.4",
+    "bootstrap": "~3.3.5"
+  }
+}
