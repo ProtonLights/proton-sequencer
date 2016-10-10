@@ -2,19 +2,21 @@
   "name": "proton-sequencer-dev-side",
   "version": "0.0.1",
   "description": "Sequencer (and Visualizer) for the CSE Winter Light Show. This is the developement side, client side is within /app/",
-  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/teslaworksumn/proton-sequencer.git"
   },
-  "author": "Ryan Fredlund, Byron Ambright, Joshua Guldberg, Alex Kafer, Kelly Larson",
+  "author": "Ryan Fredlund, Alex Kafer, Byron Ambright, Joshua Guldberg, Kelly Larson",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/teslaworksumn/proton-sequencer/issues"
   },
   "homepage": "https://github.com/teslaworksumn/proton-sequencer#readme",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "electron-prebuilt": "^0.31.0"
+    "electron": "^1.4.3",
+    "gulp": "^3.9.0"
   }
 }
