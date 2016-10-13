@@ -42,10 +42,10 @@
         }
 
         function getAllSequences() {
-            customerService.getSequenceData().then(function (sequences) {
-                self.sequences = [].concat(sequences);
-                self.selected = sequences[0];
-            });
+            // customerService.getSequenceData().then(function (sequences) {
+            //     self.sequences = [].concat(sequences);
+            //     self.selected = sequences[0];
+            // });
         }
     }
 

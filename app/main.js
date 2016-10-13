@@ -1,5 +1,6 @@
 // Proton-sequencer
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow } = require('electron');
+
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -11,6 +12,10 @@ function createWindow () {
                                   width: 800,
                                   height: 600
                                 });
+                                console.log("Test");
+
+
+                                console.log("BrowserWindow: ", mainWindow);
 
   // and load the index.html of the app.
   mainWindow.loadUrl('file://' + __dirname + '/index.html');
@@ -38,10 +43,10 @@ app.on('window-all-closed', function() {
   }
 });
 
-app.on('activate', () => {
+app.on('activate', function() {
   // On macOS it's common to re-create a window in the app when the
   // dock icon is clicked and there are no other windows open.
   if (mainWindow === null) {
     createWindow();
   }
-})
+});

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Sequencer (and Visualizer) for the CSE Winter Light Show. This is the developement side, client side is within /app/",
   "scripts": {
-    "start": "electron ."
+    "start": "electron ./app"
   },
   "repository": {
     "type": "git",
