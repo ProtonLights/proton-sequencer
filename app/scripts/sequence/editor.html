@@ -1,0 +1,18 @@
+<div style="width:100%" layout="row">
+
+  <!-- Notice the ng-model. As a model, the variable foo will become part of the $scope (same as found in the controller) and will update anytime it changes.
+  If I display foo (with the handlebars '{[ ]}'), I can see the text changing in real time!  -->
+  <input ng-model="foo" value="bar">
+
+  <!-- Same thing with number. However, if number isn't displayed anywhere in this example.
+  Instead, getNumber() uses number and returns an array. See the next tag -->
+  <input type='number' min="0" ng-model="count" value="1">
+
+  <!-- The function getNumber() (As found in the controller under $scope.getNumber())) returns an array (empty) with the variable 'number' ({{ number }}) # of elements.
+  The following p tag will just be repeated the number shown in the text box above. -->
+  <p ng-repeat='i in getNumber() track by $index'> This is a simple angular controller test! {{ foo }} </p>
+
+  {{ greeting }}
+
+
+</div>
