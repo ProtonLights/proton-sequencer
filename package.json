@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/teslaworksumn/proton-sequencer.git"
   },
-  "author": "Ryan Fredlund, Byron Ambright, Joshua Guldberg, Alex Kafer, Kelly Larson, Vladimir Kuksenko",
+  "author": "Ryan Fredlund, Byron Ambright, Joshua Guldberg, Alex Kafer, Kelly Larson, Vladimir Kuksenko, Kayla Engelstad",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/teslaworksumn/proton-sequencer/issues"
