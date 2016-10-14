@@ -39,14 +39,5 @@ Run your application by entering following command in your command prompt
 	gulp run
 ```
 
-#Release
----
-
-You can get the release version with following command:
-
-```
-gulp build-electron
-```
-
 # Credit
 https://github.com/jasimea/ElectronAngular for the general structure.

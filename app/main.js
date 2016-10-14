@@ -1,10 +1,15 @@
 // Proton-sequencer
-const { app, BrowserWindow } = require('electron');
+var app = require('app');
+
+// Module to create native browser window.
+var BrowserWindow = require('browser-window');
 
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 var mainWindow = null;
+
+
 
 function createWindow () {
   // Create the browser window.
@@ -12,10 +17,6 @@ function createWindow () {
                                   width: 800,
                                   height: 600
                                 });
-                                console.log("Test");
-
-
-                                console.log("BrowserWindow: ", mainWindow);
 
   // and load the index.html of the app.
   mainWindow.loadUrl('file://' + __dirname + '/index.html');

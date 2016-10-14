@@ -1,5 +1,10 @@
 <div style="width:100%" layout="row">
+  <input ng-model="foo" value="bar">
+  <input type='number' min="0" ng-model="count" value="1">
+  
+  <p ng-repeat='i in getNumber()  track by $index'> This is a simple angular controller test! {{ foo }} </p>
 
-  This is a simple editor test!
+  {{ greeting }}
+
 
 </div>

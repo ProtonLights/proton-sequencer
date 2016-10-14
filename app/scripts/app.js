@@ -8,9 +8,7 @@
     var _templateBase = './scripts';
 
     angular.module('app', [
-        'ngRoute',
-        'ngMaterial',
-        'ngAnimate'
+        'ngRoute'
     ])
     .config(['$routeProvider', function ($routeProvider) {
             $routeProvider.when('/', {
@@ -21,5 +19,7 @@
             $routeProvider.otherwise({ redirectTo: '/' });
         }
     ]);
+
+
 
 })();
