@@ -1,0 +1,6 @@
+{
+  "name": "proton-sequencer-client-side",
+  "version": "0.0.0",
+  "description": "Sequencer (and Visualizer) for the CSE Winter Light Show. This is the client side, dev side is up one level.",
+  "main": "main.js"
+}
