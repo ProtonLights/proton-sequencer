@@ -14,6 +14,12 @@ Install dependencies.
 	npm install
 ```
 
+If bower isn't installed, install it (may have to run as root)
+
+```
+	npm install --global bower
+```
+
 Install bower dependencies
 
 ```
